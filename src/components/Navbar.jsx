@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <div className='flex flex-row justify-evenly items-center bg-gray-800 text-gray-50'>
-        <NavLink className='text-2xl text-amber-300' to="/">Logo</NavLink>
+        <Link className='text-2xl text-amber-300' to="/">Logo</Link>
 
         {/** Desktop*/}
         <div className='hidden md:flex gap-2 items-center justify-between'>
